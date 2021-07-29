@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.majorProject.PDClassification.fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pepper"
+        android:name="com.majorProject.PDClassification.fragment.PepperFragment"
+        android:label="Pepper"
+        tools:layout="@layout/fragment_pepper" />
+    <fragment
+        android:id="@+id/nav_potato"
+        android:name="com.majorProject.PDClassification.fragment.PotatoFragment"
+        android:label="Potato"
+        tools:layout="@layout/fragment_potato" />
+    <fragment
+        android:id="@+id/nav_tomato"
+        android:name="com.majorProject.PDClassification.fragment.TomatoFragment"
+        android:label="Tomato"
+        tools:layout="@layout/fragment_tomato" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_share"-->
+<!--        android:name="com.example.menudrawer.fragment.ShareFragment"-->
+<!--        android:label="Share"-->
+<!--        />-->
+
+</navigation>

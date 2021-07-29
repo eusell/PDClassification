@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_pepper"
+            android:icon="@drawable/ic_pepper"
+            android:title="Pepper" />
+        <item
+            android:id="@+id/nav_potato"
+            android:icon="@drawable/ic_potato"
+            android:title="Potato" />
+
+        <item
+            android:id="@+id/nav_tomato"
+            android:icon="@drawable/icon_tomato"
+            android:title="Tomato" />
+    </group>
+    <item android:title="Share">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+        </menu>
+    </item>
+</menu>
